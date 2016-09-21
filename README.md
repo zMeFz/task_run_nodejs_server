@@ -12,9 +12,16 @@ Then navigate into the folder, and run:
 
 ```sh
 $ npm i
-$ npm start # (or 'node index.js')
 ```
+
+#### TRS start
+
+```sh
+$ node index.js
+```
+Then open http://localhost:3000/
 
 ### Todos
 
  - Add multiple file upload at page
+ - Add everything else, because at the moment the server sucks
