@@ -1,0 +1,32 @@
+extends layout
+
+block stylesheets
+
+block content
+	.index-wrapper
+		form(ref='uploadForm',
+			id='uploadForm',
+			action='/',
+			method='post',
+			encType="multipart/form-data")
+
+
+			label olympName
+			input(type="text", name="olympName")
+
+			br
+
+			label taskName
+			input(type="text", name="taskName")
+
+			br
+
+			label id
+			input(type="text", name="id")
+
+			br
+
+			input(type='file',name='sampleFile',multiple)
+			input(type='submit',value='Upload!')
+
+	script(src='js/index.js')
